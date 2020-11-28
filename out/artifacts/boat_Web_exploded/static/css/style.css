@@ -1,0 +1,275 @@
+li:hover #Login_hover {
+    display: block;
+}
+
+#Login_hover {
+    display: none;
+}
+
+li:hover #manager_hover {
+    display: block;
+}
+
+#manager_hover {
+    display: none;
+}
+
+.modyfyUserLeft {
+    float: left;
+}
+
+#logo {
+    width: 215px;
+    height: 90px;
+    background: url(/boat/static/img/船.jpg) no-repeat left top;
+    float: left;
+}
+
+.main_info {
+    width: 20%;
+    height: 60px;
+    float: left;
+}
+
+.login_info {
+    width: 100%;
+    height: 35px;
+    text-align: left;
+    line-height: 35px;
+    padding-left: 5px;
+}
+
+.modify {
+    width: 100%;
+    height: 25px;
+}
+
+.black_overlay {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+}
+
+.white_content {
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 568px;
+    width: 400px;
+    height: 250px;
+    border: 5px solid #95B8E7;
+    background-color: white;
+    z-index: 9026;
+}
+
+.panel-header {
+    border-color: #95B8E7;
+}
+
+.panel-header-noborder {
+    border-width: 0 0 1px 0;
+}
+
+.window-header {
+    background: transparent;
+}
+
+.panel-with-icon {
+    padding-left: 18px;
+}
+
+.panel-tool {
+    right: 5px;
+    width: auto;
+}
+
+.panel-tool a {
+    display: inline-block;
+    width: 16px;
+    height: 2px;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    margin: 0 0 0 2px;
+    vertical-align: top;
+}
+
+.panel-tool-close {
+
+}
+
+#xxx {
+    margin-top: unset;
+    margin-bottom: 10px;
+}
+
+#topbg {
+    width: 550px;
+    height: 100px;
+    float: right;
+    background: url(/boat/static/img/船2.jpg) no-repeat right top;
+
+}
+
+#m1_container {
+    width: 350px;
+    height: 20px;
+    float: left;
+    text-align: right;
+    line-height: 25px;
+}
+
+.layout-panel {
+    position: absolute;
+    overflow: hidden;
+}
+
+.panel {
+    overflow: hidden;
+    font-size: 12px;
+    text-align: left;
+}
+
+.layout-west {
+    z-index: 2;
+}
+
+.panel-header {
+    background-color: #E0ECFF;
+    background: -webkit-linear-gradient(top, #eff5ff 0, #E0ECFF 100%);
+    background: linear-gradient(bottom, #eff5ff 0, #e0ecff 100%);
+    background-repeat: repeat-x;
+    border-color: #95B8E7;
+    padding: 5px;
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+}
+
+* {
+    font-size: 12px;
+}
+
+.panel-title {
+    font-weight: bold;
+    color: #0E2D5F;
+    height: 16px;
+    line-height: 16px;
+}
+
+.panel-tool {
+    right: 5px;
+    width: auto;
+}
+
+.panel-icon, .panel-tool {
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    height: 16px;
+    overflow: hidden;
+}
+
+.panel-tool a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    margin: 0 0 0 2px;
+    vertical-align: top;
+}
+
+#page {
+    color: #9F9F9F;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.save {
+    display: none;
+    padding: 20px;
+}
+
+.jxER {
+    border-bottom: 2px solid #ffc900;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    font-family: '宋体';
+    font-size: 30px;
+}
+
+.diy-body {
+    position: absolute;
+    left: 200px;
+    right: 0;
+
+    z-index: 998;
+    width: auto;
+    overflow-y: auto;
+    box-sizing: border-box;
+    top: 95px;
+    bottom: 44px;
+}
+
+.layui-xuanxiangka {
+    position: absolute;
+    left: 200px;
+    right: 0;
+
+    height: 35px;
+    line-height: 44px;
+    padding: 0 15px;
+    background-color: rgba(192, 238, 238, 0.82)
+}
+
+.xuanxiangka-tab {
+    /* margin: 10px 0; */
+    text-align: left !important;
+}
+
+.xuanxiangka-tab-title {
+    position: relative;
+    left: 0;
+    height: 35px;
+    white-space: nowrap;
+    font-size: 0;
+
+
+    transition: all .2s;
+    -webkit-transition: all .2s
+}
+
+.kit-side-fold {
+    width: 200px;
+    padding: 0;
+    line-height: 35px;
+    text-align: center;
+    background: #484F64;
+}
+.layadmin-pagetabs {
+    position: fixed;
+    top: 50px;
+    right: 0;
+    z-index: 999;
+    background-color: #eee;
+}
+.tab-diy{
+    position: absolute;
+    left: 200px;
+    right: 0;
+    margin: 0px 0;
+    height: 807px;
+    line-height: 44px;
+    padding: 0 15px;
+    background-color: white;
+}
